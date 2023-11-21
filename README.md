@@ -4,6 +4,7 @@ Evaluating AI Capabilities in Language, Speech, and Vision
 This repo contains code and details for preliminary hands-on experiments evaluating the latest AI models across key areas:
 
 Experiments
+
 Speech Transcription
 dkwhisper.py
 Assessed Whisper by Anthropic for automated transcription of a 70-min audio recording
