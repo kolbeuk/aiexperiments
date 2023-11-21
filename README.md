@@ -5,17 +5,21 @@ This repo contains code and details for preliminary hands-on experiments evaluat
 
 Experiments
 
+
 Speech Transcription
+
 dkwhisper.py
 Assessed Whisper by Anthropic for automated transcription of a 70-min audio recording
 Tested speed, accuracy, and cost on local hardware
 
 Text Translation
+
 dkspeechtotranslate.py
 Combined Whisper + Llama2 by Meta for offline speech-to-text to text-to-text translation
 Evaluated preservation of meaning from English to Spanish
 
 Text-to-Speech
+
 tts-demo.py
 conversation.json
 Example Conversation Here's an example of a conversation in JSON format that you can use as a template: { "conversation": [ { "speaker": "alloy", "text": "How are you today?" }, { "speaker": "fable", "text": "I'm doing well, thanks!" }, { "speaker": "alloy", "text": "That's nice to hear." } ] }
@@ -23,6 +27,7 @@ Leveraged OpenAI API to synthesize voice samples from generated text
 Qualitatively assessed realism, clarity, and cost of neural voices
 
 Object Recognition
+
 Photofinderparm.py
 storephoto.jpeg
 Photofinderparm.py [image_file_path] '[custom_text_message]' Replace [image_file_path] with the path to your image file and [custom_text_message] with your desired text message for the API request.
